@@ -1,0 +1,98 @@
+.schoolbell-regular {
+
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    font-style: normal;
+    text-shadow: 5cm, black;
+    margin: 1cm;
+    font-weight: bolder;
+    color: white;
+
+}  
+
+h2 {
+    font-family: "Comic Neue", cursive;
+    font-weight: 100;
+    color: wheat;
+
+ 
+}
+
+.egg-type {
+    display:inline;
+    margin: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: none;
+}
+
+button { 
+
+    background-color: none;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.egg-img {
+
+    max-height: 200px;
+    max-width: 180px;
+    margin: 2cm;
+
+
+}
+
+p{
+    font-family: "Schoolbell", serif;
+    text-shadow: 2px 3px 8px #ffc400a0;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: -1; /* Places it behind content */
+}
+
+button:hover {
+
+    transform: scale(1.2);
+
+
+}
+    
+p1 {
+
+    margin : 10px;
+    font-size: 1cm;
+    font-weight: bolder;
+    
+}
+
+h11 {
+
+    font-size: 1cm;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    color: white;
+    margin-bottom: 100px;
+
+
+}
+
+#timer  {
+
+    font-size: 4em;
+    margin: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
